@@ -1,9 +1,9 @@
 import chalk from "chalk";
 import readline from "readline";
 
-import { Tsngo } from "../src/tsngo";
-import { TSNGO_GRID_SIZE } from "../src/types";
-import { visualizeBoard } from "../src/utils/visualize-board";
+import { Tsngo } from "../../src/tsngo";
+import { TSNGO_GRID_SIZE } from "../../src/types";
+import { visualizeBoard } from "./visualize-board";
 
 function showTsngoLogo() {
   console.log(`  _____                      

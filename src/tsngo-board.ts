@@ -5,7 +5,6 @@ import {
   TSNGO_GRID_SIZE,
   TsngoCellValue,
 } from "./types";
-import { visualizeBoard } from "./utils/visualize-board";
 import { detectViolations } from "./validator/validator";
 
 export class TsngoBoard {
@@ -111,9 +110,5 @@ export class TsngoBoard {
 
   unfilledCells(): [number, number][] {
     return this.getCoordinatesWithValue(0);
-  }
-
-  toString() {
-    return visualizeBoard(this);
   }
 }

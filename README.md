@@ -2,6 +2,8 @@
 
 Tsngo (TS + Tango, pronounced as "_tee-san-go_") is a replica of Tango (a puzzle game created by LinkedIn) in TypeScript.
 
+![tsngo demo](assets/demo.gif)
+
 ## Running the demo
 
 If you just want to play the game, I have already implemented a working example as a CLI for you to have some fun with it. Simply do the following:

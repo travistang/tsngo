@@ -2,7 +2,6 @@ import { backtrack } from "./algorithm/backtrack";
 import { TsngoBoard } from "./tsngo-board";
 import { TsngoHistory } from "./tsngo-history";
 import { getRandomBoard } from "./utils/random-board";
-import { visualizeBoard } from "./utils/visualize-board";
 
 /**
  * Main class of the game.
@@ -76,13 +75,5 @@ export class Tsngo {
   reset() {
     this.board = this.initialBoard.clone();
     this.histories = [];
-  }
-
-  toString() {
-    const defaultCells = [
-      ...this.initialBoard.getCoordinatesWithValue(-1),
-      ...this.initialBoard.getCoordinatesWithValue(1),
-    ];
-    return visualizeBoard(this.board, { defaultCells });
   }
 }

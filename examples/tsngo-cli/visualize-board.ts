@@ -1,8 +1,8 @@
 import chalk from "chalk";
-import { TsngoBoard } from "../tsngo-board";
-import { TsngoCell } from "../tsngo-cell";
-import { TSNGO_GRID_SIZE } from "../types";
-import { range } from "./range";
+import { TsngoBoard } from "../../src/tsngo-board";
+import { TsngoCell } from "../../src/tsngo-cell";
+import { TSNGO_GRID_SIZE } from "../../src/types";
+import { range } from "../../src/utils/range";
 
 type VisualizeOptions = {
   defaultCells?: [number, number][];

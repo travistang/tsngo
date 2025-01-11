@@ -6,6 +6,6 @@ export { TsngoHistory } from "./tsngo-history";
 export { TsngoNeighbourConstraint } from "./tsngo-neighbour-constraint";
 export * from "./types";
 
-export { visualizeBoard } from "./utils/visualize-board";
+export { visualizeBoard } from "../examples/tsngo-cli/visualize-board";
 
 export default Tsngo;
