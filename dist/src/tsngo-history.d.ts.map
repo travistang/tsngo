@@ -1,0 +1,1 @@
+{"version":3,"file":"tsngo-history.d.ts","sourceRoot":"","sources":["../../src/tsngo-history.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,eAAe,CAAC;AAC3C,OAAO,EAAE,cAAc,EAAE,MAAM,SAAS,CAAC;AAEzC,qBAAa,YAAY;IAEd,CAAC,EAAE,MAAM;IACT,CAAC,EAAE,MAAM;IACT,aAAa,EAAE,cAAc;gBAF7B,CAAC,EAAE,MAAM,EACT,CAAC,EAAE,MAAM,EACT,aAAa,EAAE,cAAc;IAGtC,KAAK,CAAC,KAAK,EAAE,UAAU;CAGxB"}
