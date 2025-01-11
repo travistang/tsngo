@@ -1,1 +1,0 @@
-{"version":3,"file":"tsngo-cell.d.ts","sourceRoot":"","sources":["../../src/tsngo-cell.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,SAAS,CAAC;AAEzC,qBAAa,SAAS;IACpB,KAAK,EAAE,cAAc,CAAC;gBACV,YAAY,GAAE,cAAkB;IAI5C,MAAM;IAON,QAAQ;IAIR,QAAQ;CAUT"}
