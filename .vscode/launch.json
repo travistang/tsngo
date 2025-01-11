@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/src/index.ts", // Update to your entry file
+      "preLaunchTask": "tsc: build - tsconfig.json", // Optional, auto-compiles before debugging
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"], // Match compiled JS files
+      "sourceMaps": true
+    }
+  ]
+}
