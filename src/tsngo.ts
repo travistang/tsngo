@@ -47,7 +47,7 @@ export class Tsngo {
   }
 
   solved() {
-    return this.solution.isFilled() && this.board.equals(this.solution);
+    return this.board.isFilled() && this.board.isValid();
   }
 
   select(i: number, j: number) {
