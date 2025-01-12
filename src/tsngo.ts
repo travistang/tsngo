@@ -35,13 +35,14 @@ export class Tsngo {
     while (!randomBoard.isValid()) {
       randomBoard = getRandomBoard(10, 6);
     }
-    this.initialBoard = randomBoard.clone();
-    this.board = randomBoard.clone();
 
     const backtrackedSolution = backtrack(randomBoard.clone());
     if (!backtrackedSolution) {
       return this.initialize();
     }
+    this.initialBoard = randomBoard.clone();
+    this.board = randomBoard.clone();
+
     this.solution = backtrackedSolution.clone();
   }
 

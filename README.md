@@ -1,6 +1,6 @@
 # Tsngo - LinkedIn's Tango replica
 
-Tsngo (TS + Tango, pronounced as "_tee-san-go_") is a replica of Tango (a puzzle game created by LinkedIn) in TypeScript.
+Tsngo (TS + Tango, pronounced as "_tee-san-go_") is a replica of [Tango](https://www.linkedin.com/games/tango/) (a puzzle game created by LinkedIn) in TypeScript.
 
 ![tsngo demo](assets/demo.gif)
 
@@ -27,7 +27,24 @@ I assume you know how to play the original game. If you don't please check out L
 ```
 import Tsngo from 'tsngo';
 
-const tsngo = new Tsngo();
-tsngo.initialize();
-// Do whatever you want with the game
+// Create a new game instance
+const game = new Tsngo();
+
+// Initialize the game
+game.initialize();
+
+// Select a cell
+game.select(2, 3);
+
+// Undo the last move
+game.undo();
+
+// Check if the board is valid
+console.log(game.isValid());
+
+// is the puzzle solved?
+game.solved(); // false
+
+// Reset the game
+game.reset();
 ```
