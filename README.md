@@ -14,7 +14,7 @@ If you just want to play the game, I have already implemented a working example 
 - Install the dependencies:
   `npm install`
 - Run:
-  `npx ts-node examples/tsngo-cli.ts`
+  `npx ts-node examples/tsngo-cli/index.ts`
 
 I assume you know how to play the original game. If you don't please check out LinkedIn's tutorial!
 
