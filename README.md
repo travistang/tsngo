@@ -48,3 +48,7 @@ game.solved(); // false
 // Reset the game
 game.reset();
 ```
+
+## Documentation
+
+[Here!](./docs/1-introduction.md)
